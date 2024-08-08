@@ -156,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       bottom: 20,
                     ),
                     child: Image.asset(
-                      'assets/weathers/spark-cloud@2x.png',
+                      'lib/assets/weathers/spark-cloud@2x.png',
                       height: 120,
                     ),
                   )

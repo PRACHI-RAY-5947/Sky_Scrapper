@@ -40,7 +40,7 @@ class _CityScreenState extends State<CityScreen> {
                     bottom: 15,
                   ),
                   child: SvgPicture.asset(
-                    'assets/icons/menu.svg',
+                    'lib/assets/icons/menu.svg',
                     fit: BoxFit.fitHeight,
                     alignment: Alignment.topLeft,
                   ),
@@ -83,7 +83,7 @@ class _CityScreenState extends State<CityScreen> {
               ),
               alignment: Alignment.topLeft,
               child: Text(
-                '19-02-2021',
+                '19-07-2024',
                 style: TextStyle(
                   height: 1.3,
                   fontSize: 14,
@@ -100,7 +100,7 @@ class _CityScreenState extends State<CityScreen> {
                     children: [
                       Container(
                         child: Image.asset(
-                          'assets/weathers/rain-cloud-sun@2x.png',
+                          'lib/assets/weathers/rain-cloud-sun@2x.png',
                           height: 120,
                         ),
                       ),
@@ -152,7 +152,7 @@ class _CityScreenState extends State<CityScreen> {
                           borderRadius: BorderRadius.all(Radius.circular(15)),
                         ),
                         child: SvgPicture.asset(
-                          'assets/icons/ventos.svg',
+                          'lib/assets/icons/ventos.svg',
                           alignment: Alignment.center,
                         ),
                       ),
@@ -165,7 +165,7 @@ class _CityScreenState extends State<CityScreen> {
                           borderRadius: BorderRadius.all(Radius.circular(15)),
                         ),
                         child: SvgPicture.asset(
-                          'assets/icons/nuvem.svg',
+                          'lib/assets/icons/nuvem.svg',
                           alignment: Alignment.center,
                         ),
                       ),
@@ -178,7 +178,7 @@ class _CityScreenState extends State<CityScreen> {
                           borderRadius: BorderRadius.all(Radius.circular(15)),
                         ),
                         child: SvgPicture.asset(
-                          'assets/icons/umidade.svg',
+                          'lib/assets/icons/umidade.svg',
                           alignment: Alignment.center,
                         ),
                       ),
@@ -279,7 +279,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 40,
                           width: 40,
                           child: SvgPicture.asset(
-                            'assets/icons/chuvacomraio.svg',
+                            'lib/assets/icons/chuvacomraio.svg',
                           ),
                         ),
                         Container(
@@ -339,7 +339,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 60,
                           width: 60,
                           child: Image.asset(
-                            'assets/weathers/rain-cloud-sun@2x.png',
+                            'lib/assets/weathers/rain-cloud-sun@2x.png',
                             height: 60,
                           ),
                         ),
@@ -388,7 +388,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 40,
                           width: 40,
                           child: SvgPicture.asset(
-                            'assets/icons/nuvemcomsol.svg',
+                            'lib/assets/icons/nuvemcomsol.svg',
                           ),
                         ),
                         Container(
@@ -436,7 +436,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 40,
                           width: 40,
                           child: SvgPicture.asset(
-                            'assets/icons/nuvem.svg',
+                            'lib/assets/icons/nuvem.svg',
                             color: Color(0xffBDBCE1),
                           ),
                         ),
@@ -485,7 +485,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 40,
                           width: 40,
                           child: SvgPicture.asset(
-                            'assets/icons/sol.svg',
+                            'lib/assets/icons/sol.svg',
                             color: Color(0xffBDBCE1),
                           ),
                         ),
@@ -555,7 +555,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 30,
                           width: 30,
                           child: SvgPicture.asset(
-                            'assets/icons/nuvemcomsol.svg',
+                            'lib/assets/icons/nuvemcomsol.svg',
                             color: Color(0xff83839D),
                           ),
                         ),
@@ -593,7 +593,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 30,
                           width: 30,
                           child: SvgPicture.asset(
-                            'assets/icons/nuvem.svg',
+                            'lib/assets/icons/nuvem.svg',
                             color: Color(0xff83839D),
                           ),
                         ),
@@ -631,7 +631,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 30,
                           width: 30,
                           child: SvgPicture.asset(
-                            'assets/icons/sol.svg',
+                            'lib/assets/icons/sol.svg',
                             color: Color(0xff83839D),
                           ),
                         ),
@@ -669,7 +669,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 30,
                           width: 30,
                           child: SvgPicture.asset(
-                            'assets/icons/nuvemcomsol.svg',
+                            'lib/assets/icons/nuvemcomsol.svg',
                             color: Color(0xff83839D),
                           ),
                         ),
@@ -707,7 +707,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 30,
                           width: 30,
                           child: SvgPicture.asset(
-                            'assets/icons/nuvem.svg',
+                            'lib/assets/icons/nuvem.svg',
                             color: Color(0xff83839D),
                           ),
                         ),
@@ -745,7 +745,7 @@ class _CityScreenState extends State<CityScreen> {
                           height: 30,
                           width: 30,
                           child: SvgPicture.asset(
-                            'assets/icons/sol.svg',
+                            'lib/assets/icons/sol.svg',
                             color: Color(0xff83839D),
                           ),
                         ),
@@ -958,7 +958,7 @@ class _CityScreenState extends State<CityScreen> {
                                     height: 35,
                                     width: 200,
                                     child: Image.asset(
-                                        'assets/weathers/Sun@2x.png'),
+                                        'lib/assets/weathers/Sun@2x.png'),
                                   ),
                                 ),
                                 Positioned(
@@ -967,7 +967,7 @@ class _CityScreenState extends State<CityScreen> {
                                     height: 35,
                                     width: 35,
                                     child: SvgPicture.asset(
-                                      'assets/icons/sunrise.svg',
+                                      'lib/assets/icons/sunrise.svg',
                                     ),
                                   ),
                                 ),
@@ -1018,7 +1018,7 @@ class _CityScreenState extends State<CityScreen> {
                                     height: 35,
                                     width: 35,
                                     child: SvgPicture.asset(
-                                      'assets/icons/sunset.svg',
+                                      'lib/assets/icons/sunset.svg',
                                     ),
                                   ),
                                 ),
@@ -1084,7 +1084,7 @@ class _CityScreenState extends State<CityScreen> {
                       height: 60,
                       width: 60,
                       child: SvgPicture.asset(
-                        'assets/icons/vento.svg',
+                        'lib/assets/icons/vento.svg',
                       ),
                     ),
                   ),
